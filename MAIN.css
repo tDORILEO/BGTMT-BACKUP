@@ -1,0 +1,195 @@
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+ul {
+    padding: 0px ! important;
+}
+
+.pagina-inicial {
+    width: 100%;
+    background-color: #2b2929;
+    height: 60px;
+}
+
+main,
+.content {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1280px;
+    position: relative;
+}
+
+.logo {
+    padding: 20px;
+    float: left;
+    width: 50%;
+}
+
+.redes-sociais ul li {
+    margin-left: 22px;
+    display: inline-block;
+    float: none;
+    list-style: none;
+}
+
+.redes-sociais {
+    width: 25%;
+    float: right;
+}
+
+.header-2 {
+    background-color: #ffffff;
+    width: 100%;
+    max-width: 685px;
+    margin: 0 auto;
+    padding: 16px;
+}
+
+.menu-urls {
+    height: 80px;
+    border-bottom: 3px solid #efefef;
+}
+
+.home ul li {
+    display: inline-block;
+    color: #8b8b8b;
+    margin-left: 15px;
+    height: 50px;
+}
+
+.home ul li:hover {
+    border-bottom: 3px solid #025F1C;
+}
+
+.home ul li a:hover {
+    color: #025F1C;
+}
+
+.home ul li a {
+    color: #8b8b8b;
+    text-decoration: none;
+    font-size: 17px;
+    text-transform: uppercase;
+}
+
+.home {
+    width: 90%;
+    float: left;
+}
+
+.col-100 {
+    width: 100%;
+    float: left;
+    position: relative;
+}
+
+.slider-home {
+    height: 75%;
+}
+
+button.slick-prev {
+    font-size: 0px;
+    border: none;
+    width: 25px;
+    height: 51px;
+    z-index: 9;
+    background-color: transparent;
+    position: absolute;
+    background-image: url('../BGMT-green/IMG/Anterior.png');
+    top: 45%;
+    left: 14%;
+}
+
+button.slick-next {
+    font-size: 0px;
+    border: none;
+    width: 25px;
+    height: 51px;
+    z-index: 9;
+    background-color: transparent;
+    position: absolute;
+    background-image: url('../BGMT-green/IMG/Proximo.png');
+    top: 45%;
+    right: 14%;
+}
+
+.slick-list {
+    width: 100% !important;
+}
+
+.slick-initialized {
+    overflow: hidden;
+}
+
+.slick-dots li button {
+    font-size: 0px;
+    border: 5px solid #040404;
+    width: 26px;
+    height: 26px;
+    background: transparent;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.slick-dots {
+    margin: 0 auto;
+    width: 47%;
+    position: absolute;
+    left: 45%;
+    top: 650px;
+}
+
+li.slick-active button {
+    background-color: #025F1C;
+}
+
+.slick-dots li {
+    padding-left: 10px;
+    display: inline-block;
+}
+
+.texto-destaque {
+    text-align: center;
+}
+
+.texto-destaque h1 {
+    color: #9e9e9e;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.texto-destaque strong {
+    color: #025F1C;
+}
+
+.col-3 {
+    margin-left: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 28%;
+    float: left;
+    position: relative;
+}
+
+.bloco-texto {
+    margin-top: 5em;
+}
+
+.frase-texto {
+    margin-top: 3em;
+}
+
+.alert ul li {
+    margin-left: 23px;
+    display: block;
+    float: right;
+    list-style: none;
+}
+
+.alert {
+    width: 80%;
+    float: right;
+}

@@ -1,0 +1,190 @@
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="./criarclientes.css">
+    <title>BGMT Green</title>
+    <link rel="icon" href="fav.ico" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+
+<body>
+    <header class="pagina-inicial">
+        <main>
+            <div class="header-1">
+                <div class="logo">
+                    <img src="./IMG/Logo.png" />
+                </div>
+                <div class="redes-sociais">
+                    <ul>
+                        <li>
+                            <a href="#" onclick="redirecionarWhatsApp()">
+                                <img src="./IMG/Whatsappp.png" class="WhatsApp">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" onclick="redirecionarInstagram()">
+                                <img src="./IMG/Instagramm.png" class="Instagram">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" onclick="redirecionarLinkedIn()">
+                                <img src="./IMG/Linkedinn.png" id="Linkedin" alt="Linkedin">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="alert">
+                <ul>
+                    <li>
+                        <a href="./notificacao.html" onclick="">
+                            <img src="./IMG/Notificação.png" id="Notificação" alt="Notificação">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="./perfil.html" onclick="">
+                            <img src="./IMG/Perfil.png" id="Perfil" alt="Perfil">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            </div>
+        </main>
+    </header>
+    <main class="col-100 menu-urls">
+        <div class="header-2">
+            <div class="home">
+                <ul>
+                    <li>
+                        <a href="./index.html">Pagina Inicial</a>
+                    </li>
+                    <li>
+                        <a href="./clientes.html">Clientes</a>
+                    </li>
+                    <li>
+                        <a href="./criarclientes.html">Criar Clientes</a>
+                    </li>
+                    <li>
+                        <a id="emailLink" href="#">Suporte</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </main>
+    <header>
+        <main class="tabela">
+            <div class="header-3">
+                <div>
+                    <h1>Cadastro de Clientes</h1>
+                    <div>
+                        <form>
+                            <div class="dados">
+                                <div id="cod">
+                                    <label>Code</label>
+                                    <br />
+                                    <input type="text" name="code" id="code" required>
+                                </div>
+                                <div id="name">
+                                    <label>Nome Fantasia</label>
+                                    <br />
+                                    <input type="text" name="fantasia" id="fantasia" required>
+                                </div>
+                                <div id="soc">
+                                    <label>Razão Social</label>
+                                    <br />
+                                    <input type="text" name="social" id="social" required>
+                                </div>
+                                <div id="ram">
+                                    <label>Ramo de Atuação</label>
+                                    <br />
+                                    <input type="text" name="ramo" id="ramo" required>
+                                </div>
+                                <div id="ema">
+                                    <label>E-mail</label>
+                                    <br />
+                                    <input type="email" name="email" id="email" required>
+                                </div>
+                                <div id="fix">
+                                    <label>Telefone Fixo</label>
+                                    <br />
+                                    <input type="tel" name="fixo" id="fixo">
+                                </div>
+                                <div id="cell">
+                                    <label>Telefone Celular</label>
+                                    <br />
+                                    <input type="tel" name="celular" id="celular">
+                                </div>
+                                <div id="ed">
+                                    <label>Endereço</label>
+                                    <br />
+                                    <input type="text" name="end" id="end" required>
+                                </div>
+                                <div id="pec">
+                                    <label>CEP</label>
+                                    <br />
+                                    <input type="text" name="cep" id="cep" required>
+                                </div>
+                                <div id="cid">
+                                    <label>Cidade</label>
+                                    <br />
+                                    <input type="text" name="city" id="city" required>
+                                </div>
+                                <div id="est">
+                                    <label>Estado</label>
+                                    <select name="state" required>
+                                        <option selected disabled value="">Selecione seu Estado...</option>
+                                        <option value="AC">Acre (AC)</option>
+                                        <option value="AC">Alagoas (AL)</option>
+                                        <option value="AC">Amapá (AP)</option>
+                                        <option value="AC">Amazonas (AM)</option>
+                                        <option value="AC">Bahia (BA)</option>
+                                        <option value="AC">Ceará (CE)</option>
+                                        <option value="AC">Distrito Federal (DF)</option>
+                                        <option value="AC">Espírito Santo (ES)</option>
+                                        <option value="AC">Goiás (GO)</option>
+                                        <option value="AC">Maranhão (MA)</option>
+                                        <option value="AC">Mato Grosso (MT)</option>
+                                        <option value="AC">Mato Grosso do Sul (MS)</option>
+                                        <option value="AC">Minas Gerais (MG)</option>
+                                        <option value="AC">Pará (PA)</option>
+                                        <option value="AC">Paraíba (PB)</option>
+                                        <option value="AC">Paraná (PR)</option>
+                                        <option value="AC">Pernanbuco (PE)</option>
+                                        <option value="AC">Piauí (PI)</option>
+                                        <option value="AC">Rio de Janeiro (RJ)</option>
+                                        <option value="AC">Rio Grande do Norte (RN)</option>
+                                        <option value="AC">Rio Grande do Sul (RS)</option>
+                                        <option value="AC">Rondônia (RO)</option>
+                                        <option value="AC">Roraima (RR)</option>
+                                        <option value="AC">Santa Catarina (SC)</option>
+                                        <option value="AC">São Paulo (SP)</option>
+                                        <option value="AC">Sergipe (SE)</option>
+                                        <option value="AC">Tocantis (TO)</option>
+                                    </select>
+                                </div>
+                                <div>
+                                    <button type="submit" id="salvar">
+                                        <img src="./IMG/save.png" alt="Cadastrar">
+                                    </button>
+                                </div>
+                            </div>
+                            <div>
+                                <input type="file" name="foto" id="foto" accept="image/*">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </header>
+    <div class="rodape">
+        <img src="./IMG/rodape.png" alt="rodapepg" id="img-rod">
+    </div>
+    <script type="text/javascript" src="./jquery.js"></script>
+    <script type="text/javascript" src="./jquery.migrate.js"></script>
+    <script type="text/javascript" src="./slick.min.js"></script>
+    <script type="text/javascript" src="./script.js"></script>
+</body>
+
+</html>

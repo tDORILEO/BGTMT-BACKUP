@@ -1,0 +1,264 @@
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+ul {
+    padding: 0px ! important;
+}
+
+.pagina-inicial {
+    width: 100%;
+    background-color: #2b2929;
+    height: 60px;
+}
+
+main,
+.content {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1280px;
+    position: relative;
+}
+
+.logo {
+    padding: 20px;
+    float: left;
+    width: 50%;
+
+}
+
+.redes-sociais ul li {
+    margin-left: 22px;
+    display: inline-block;
+    float: none;
+    list-style: none;
+}
+
+.redes-sociais {
+    width: 25%;
+    float: right;
+}
+
+.header-2 {
+    background-color: #ffffff;
+    width: 100%;
+    max-width: 685px;
+    margin: 0 auto;
+    padding: 16px;
+}
+
+.menu-urls {
+    height: 80px;
+    border-bottom: 3px solid #ffffff;
+}
+
+.home ul li {
+    display: inline-block;
+    color: #ffffff;
+    margin-left: 15px;
+    height: 50px;
+}
+
+.home ul li:hover {
+    border-bottom: 3px solid #025F1C;
+}
+
+.home ul li a:hover {
+    color: #025F1C;
+}
+
+.home ul li a {
+    color: #8b8b8b;
+    text-decoration: none;
+    font-size: 17px;
+    text-transform: uppercase;
+}
+
+.home {
+    width: 90%;
+    float: left;
+}
+
+.col-100 {
+    width: 100%;
+    float: left;
+    position: relative;
+}
+
+.alert ul li {
+    margin-left: 23px;
+    display: block;
+    float: right;
+    list-style: none;
+}
+
+.alert {
+    width: 80%;
+    float: right;
+}
+
+.header-3 {
+    width: 100%;
+    float: left;
+    position: relative;
+    padding: 10px;
+}
+
+h1 {
+    color: #025F1C;
+}
+
+#foto {
+    float: right;
+    height: 30%;
+    width: 30%;
+    margin: 1px;
+    border: 1px solid#9b9999;
+    border-radius: 2%;
+
+}
+
+.dados {
+    float: left;
+    width: 60%;
+    height: 65%;
+    border: 1px solid #9b9999;
+    border-radius: 1%;
+}
+
+#salvar {
+    position: relative;
+    float: right;
+    bottom: -35;
+    background-color: transparent;
+    border: 0;
+
+}
+
+#code {
+    width: 7%;
+}
+
+#fantasia {
+    width: 70%;
+}
+
+#social {
+    width: 70%;
+}
+
+#ramo {
+    width: 70%;
+}
+
+#email {
+    width: 70%;
+}
+
+#fixo {
+    width: 30%;
+}
+
+#celular {
+    width: 30%;
+}
+
+#end {
+    width: 70%;
+}
+
+#cep {
+    width: 20%;
+}
+
+#city {
+    width: 40%;
+}
+
+#cod {
+    margin-top: 10;
+    margin-bottom: 5;
+    margin-left: 10;
+    font-weight: bold;
+}
+
+#name {
+    margin-top: 10;
+    margin-bottom: 5;
+    margin-left: 10;
+    font-weight: bold;
+}
+
+#soc {
+    margin-top: 10;
+    margin-bottom: 5;
+    margin-left: 10;
+    font-weight: bold;
+}
+
+#ram {
+    margin-top: 10;
+    margin-bottom: 5;
+    margin-left: 10;
+    font-weight: bold;
+}
+
+#ema {
+    margin-top: 10;
+    margin-bottom: 5;
+    margin-left: 10;
+    font-weight: bold;
+}
+
+#fix {
+    margin-top: 10;
+    margin-bottom: 5;
+    margin-left: 10;
+    font-weight: bold;
+}
+
+#cell {
+    margin-top: 10;
+    margin-bottom: 5;
+    margin-left: 10;
+    font-weight: bold;
+}
+
+#ed {
+    margin-top: 10;
+    margin-bottom: 5;
+    margin-left: 10;
+    font-weight: bold;
+}
+
+#pec {
+    margin-top: 10;
+    margin-bottom: 5;
+    margin-left: 10;
+    font-weight: bold;
+}
+
+#cid {
+    margin-top: 10;
+    margin-bottom: 15;
+    margin-left: 10;
+    font-weight: bold;
+}
+
+#est {
+    margin-top: 10;
+    margin-bottom: 5;
+    margin-left: 10;
+    font-weight: bold;
+}
+
+.rodape {
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}

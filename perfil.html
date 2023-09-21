@@ -1,0 +1,132 @@
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="./perfil.css">
+    <title>BGMT Green</title>
+    <link rel="icon" href="fav.ico" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+
+<body>
+    <header class="pagina-inicial">
+        <main>
+            <div class="header-1">
+                <div class="logo">
+                    <img src="./IMG/Logo.png" />
+                </div>
+                <div class="redes-sociais">
+                    <ul>
+                        <li>
+                            <a href="#" onclick="redirecionarWhatsApp()">
+                                <img src="./IMG/Whatsappp.png" class="WhatsApp">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" onclick="redirecionarInstagram()">
+                                <img src="./IMG/Instagramm.png" class="Instagram">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" onclick="redirecionarLinkedIn()">
+                                <img src="./IMG/Linkedinn.png" id="Linkedin" alt="Linkedin">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="alert">
+                <ul>
+                    <li>
+                        <a href="./notificacao.html" onclick="">
+                            <img src="./IMG/Notificação.png" alt="Notificação" id="Notificação">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="./perfil.html" onclick="">
+                            <img src="./IMG/Perfil.png" alt="Perfil" id="Perfil">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            </div>
+        </main>
+    </header>
+    <main class="col-100 menu-urls">
+        <div class="header-2">
+            <div class="home">
+                <ul>
+                    <li>
+                        <a href="./index.html">Pagina Inicial</a>
+                    </li>
+                    <li>
+                        <a href="./clientes.html">Clientes</a>
+                    </li>
+                    <li>
+                        <a href="./criarclientes.html">Criar Clientes</a>
+                    </li>
+                    <li>
+                        <a id="emailLink" href="#">Suporte</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </main>
+    <header>
+        <main>
+            <div class="header-3">
+                <div class="quad">
+                    <div id="cod">
+                        <label>Code</label>
+                        </br>
+                        <input type="text" name="code" id="code" required>
+                    </div>
+                    <div id="name">
+                        <label>Nome do Funcionario</label>
+                        </br>
+                        <input type="text" name="nome" id="nome" required>
+                    </div>
+                    <div id="emp">
+                        <label>Nome da Empresa</label>
+                        </br>
+                        <input type="text" name="empresa" id="empresa" required>
+                    </div>
+                    <div id="car">
+                        <label>Cargo na Empresa</label>
+                        </br>
+                        <input type="text" name="cargo" id="cargo" required>
+                    </div>
+                    <div id="fix">
+                        <label>Telefone Fixo</label>
+                        </br>
+                        <input type="text" name="fixo" id="fixo">
+                    </div>
+                    <div id="cel">
+                        <label>Telefone Celular</label>
+                        </br>
+                        <input type="text" name="cell" id="cell">
+                    </div>
+                    <div id="eml">
+                        <label>E-mail</label>
+                        </br>
+                        <input type="text" name="email" id="email" required>
+                    </div>
+                </div>
+                <div>
+                    <input type="file" name="foto" id="foto" accept="image/*">
+                </div>
+                </form>
+            </div>
+        </main>
+    </header>
+    <div class="rodape">
+        <img src="./IMG/rodape.png" alt="rodapepg" id="img-rod">
+    </div>
+
+    <script type="text/javascript" src="./jquery.js"></script>
+    <script type="text/javascript" src="./jquery.migrate.js"></script>
+    <script type="text/javascript" src="./slick.min.js"></script>
+    <script type="text/javascript" src="./script.js"></script>
+</body>
+
+</html>
